@@ -30,6 +30,17 @@ div{
     left: 30.5%
 }
 
+#skills{
+    display: inline-block;
+    width: 10%;
+}
+
+#links{
+    display: inline-block;
+    width: 10%;
+}
+
+
 ul li:nth-child(odd) {
     background-color: rgba(28, 58, 194, 0.87);
 }
