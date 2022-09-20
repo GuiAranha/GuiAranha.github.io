@@ -1,7 +1,7 @@
 export default function Career() {
   return (
     <>
-      <div class="flex w-auto h-screen bg-neutral-900 justify-center items-center overflow-y-scroll overflow-x-hidden scrollbar-hide">
+      <div id="career" class="flex w-auto h-screen bg-neutral-900 justify-center items-center overflow-y-scroll overflow-x-hidden scrollbar-hide">
         <div className='flex flex-col md:ml-auto w-screen h-screen items-center pt-5'>
           <p className="text-center text-white">2016 - 2018</p>
           <div className="w-screen sm:w-[440px] md:mr-[40%] pl-20 sm:pl-5 self-center">

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div class="flex flex-col lg:flex-row w-auto h-auto bg-neutral-900 justify-center items-center">
+      <div id="about" class="flex flex-col lg:flex-row w-auto h-auto bg-neutral-900 justify-center items-center">
         <div className="flex-shrink-0 sm:w-[400px] sm:h-[400px]">
           <img className="rounded-2xl scale-75 sm:scale-100" src="./assets/images/foto.jpg" alt="" />
         </div>

@@ -6,10 +6,12 @@ import Main from '../components/Main';
 export default function Initial() {
   return (
     <>
-    <Header />
-    <div className='flex h-screen w-screen overflow-hidden'>
-      <Aside />
-      <Main />
+    <div className='flex flex-col h-screen w-screen'>
+      <Header />
+      <div className="flex overflow-hidden">
+        <Aside />
+        <Main />
+      </div>
     </div>
     </>
   );

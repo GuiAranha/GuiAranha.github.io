@@ -1,7 +1,7 @@
 export default function Aside() {
   return (
     <>
-      <div class="relative h-screen flex z-10 top-14 min-w-20 float-left">
+      <div class="relative h-screen flex z-10 min-w-20 float-left">
         <aside class="hidden md:block w-20 bg-neutral-900 p-5 pb-20">
           <div class="flex justify-end flex-col pb-[100px] items-center h-screen">
             <div class="py-5">

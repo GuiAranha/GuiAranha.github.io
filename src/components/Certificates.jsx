@@ -1,7 +1,7 @@
 export default function Certificates() {
   return (
     <>
-      <div className="flex bg-neutral-900 p-5 w-auto h-auto justify-center items-center">
+      <div id="certificate" className="flex bg-neutral-900 p-5 w-auto h-auto justify-center items-center">
         <div class="grid grid-flow-col grid-rows-3 grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 gap-5 justify-center items-center">
           <a target="_blank" rel="noreferrer" href="https://www.credential.net/a796a356-b052-429b-bbb4-0f4e596d3cd5#gs.cd4k8o" class="">
             <div>

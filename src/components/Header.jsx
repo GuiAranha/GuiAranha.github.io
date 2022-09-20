@@ -2,11 +2,9 @@ import { Disclosure} from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-  { name: 'Reports', href: '#', current: false },
+  { name: 'About', href: '#about', current: true },
+  { name: 'Certificados', href: '#certificate', current: false },
+  { name: 'Carreira', href: '#career', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,8 +14,8 @@ function classNames(...classes) {
 export default function Header() {
   return (
     <>
-      <div className="fixed left-0 top-0 right-0 min-h-14 z-20">
-        <Disclosure as="nav" className="bg-neutral-900">
+      <div className="relative left-0 top-0 right-0 min-h-14 z-20">
+        <Disclosure as="nav" className="bg-neutral-900 w-screen">
           {({ open }) => (
             <>
               <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-10">
@@ -32,12 +30,7 @@ export default function Header() {
                           <a
                             key={item.name}
                             href={item.href}
-                            className={classNames(
-                              item.current
-                                ? 'bg-neutral-700 text-white'
-                                : 'text-gray-300 hover:bg-neutral-600 hover:text-white',
-                              'px-3 py-2 rounded-md text-sm font-medium'
-                            )}
+                            className='text-gray-300 hover:bg-neutral-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium nav-link undefined'
                             aria-current={item.current ? 'page' : undefined}
                           >
                             {item.name}
